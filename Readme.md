@@ -1,11 +1,11 @@
 # Личный проект «Техномарт»
 
 * Студент: [Александра Васина](https://up.htmlacademy.ru/htmlcss/28/user/1164367).
-* Наставник: `Руслан Давлетбаев`.
+* Наставник: `Руслан Давлетбаев`(https://htmlacademy.ru/profile/davletbaev).
 
 ---
 
-_Не удаляйте и не обращайте внимание на файлы:_<br>
+_Не удаляйте и не обращайте на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 ---
