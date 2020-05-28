@@ -73,9 +73,9 @@
   </div>
   <aside>
     <h2>Фильтр</h2>
-    <fieldset>
-      <legend>Цена</legend>
-        <form>
+    <form>
+      <fieldset>
+        <legend>Цена</legend>
           <input type="range" multiple>
           <label>
             <span class="visually-hidden">c</span><input type="number">
@@ -83,22 +83,21 @@
           <label>
             <span class="visually-hidden">до</span><input type="number">
           </label>
-        </form>
-    </fieldset>
-    <div>
-    <h2>Производители:</h2>
-    <ul>
-      <li>
-            <label>
-              <input type="checkbox">
-              <span>Bosch</span>
-            </label>
+      </fieldset>
+      <fieldset>
+        <legend>Производители:</legend>
+        <ul>
+            <li>
+              <label>
+                <input type="checkbox">
+                <span>Bosch</span>
+              </label>
             </li>
-        <li>
+            <li>
               <label>
                 <input type="checkbox">
                 <span> Интерскол</span>
-                </label>
+              </label>
             </li>
             <li>
               <label>
@@ -118,24 +117,26 @@
                 <span> Hitachi</span>
                 </label>
             </li>
-  </div>
-  <div>
-    <h2>Питание:</h2>
-    <ul>
-            <li>
-             <label>
-              <input type="checkbox">
-              <span> Акумуляторные</span>
-               </label>
-            </li>
-            <li>
-             <label>
-             <input type="checkbox">
-             <span> Сетевые</span>
-               </label>
-            </li>
         </ul>
-    </div>
+      </fieldset>
+      <fieldset>
+        <legend>Питание:</legend>
+          <ul>
+            <li>
+              <label>
+                <input type="checkbox">
+                <span> Акумуляторные</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox">
+                <span> Сетевые</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </form>
   </aside>
   <section>
     <article>
