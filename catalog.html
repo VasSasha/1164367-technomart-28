@@ -73,15 +73,15 @@
   </div>
   <aside>
     <h2>Фильтр</h2>
-    <form>
+    <form action="https://echo.htmlacademy.ru" method="get">
       <fieldset>
         <legend>Цена</legend>
           <input type="range" multiple>
           <label>
-            <span class="visually-hidden">c</span><input type="number">
+            <span class="visually-hidden">c</span><input type="number" name="from-price" min="0">
           </label>
           <label>
-            <span class="visually-hidden">до</span><input type="number" name="">
+            <span class="visually-hidden">до</span><input type="number" name="to-price" min="0">
           </label>
       </fieldset>
       <fieldset>
@@ -89,31 +89,31 @@
         <ul>
             <li>
               <label>
-                <input type="checkbox" name="bosch">
+                <input type="checkbox" name="brands[]" value="bosch">
                 <span>Bosch</span>
               </label>
             </li>
             <li>
               <label>
-                <input type="checkbox" name="interskol">
+                <input type="checkbox" name="brands[]" value="interskol">
                 <span> Интерскол</span>
               </label>
             </li>
             <li>
               <label>
-                <input type="checkbox" name="makita">
+                <input type="checkbox" name="brands[]" value="makita">
                 <span> Makita</span>
                 </label>
             </li>
             <li>
               <label>
-                <input type="checkbox" name="dewalt">
+                <input type="checkbox" name="brands[]" value="dewalt">
                 <span> Dewalt</span>
                 </label>
             </li>
             <li>
                 <label>
-                <input type="checkbox" name="hitachi">
+                <input type="checkbox"  name="brands[]" value="hitachi">
                 <span> Hitachi</span>
                 </label>
             </li>
@@ -136,6 +136,7 @@
             </li>
           </ul>
         </fieldset>
+        <button type="sublit">Показать</button>
       </form>
   </aside>
   <section>
