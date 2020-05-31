@@ -109,7 +109,7 @@ a.access:active{
 }
 .user-name{
 	color:black;
-	background-color: var(--basic-white);
+	background-color: var(--basic);
 }
 .user-name:active{
 	color:var(--special-grey);
@@ -140,10 +140,20 @@ a.access:active{
 }
 .main-nav ul li{
 	display: inline-block;
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
 }
 .footer-navigation{
 	background-color: var(--basic-blue);
 	margin:0;
+	font-family: Cuprum, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
 }
 a.adress{
 	color: var(--basic-white);
@@ -151,6 +161,10 @@ a.adress{
 .footer-nav a{
 	color: var(--basic-white);
 	font-family: Cuprum, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
 }
 footer ul{
 	list-style: none;
@@ -159,9 +173,11 @@ footer ul{
 	background-color: var(--basic-darkblue);
 	color:white;
 	margin:0;
-}
-footer p{
 	font-family: Cuprum, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
 }
 a.footer-nav-item,
 .footer-links .feedback,
@@ -172,7 +188,51 @@ a.footer-nav-item,
 	display: none;
 }
 .img-logo{
-	background-color: var(--basic-red)
+	background-color: var(--basic-red);
+}
+.perf-info h2,
+.about-us h2{
+	color:black;
+	font-size: 30px;
+	line-height: 30px;
+	font-family: Cuprum, sans-serif;
+}
+.old-price{
+	text-decoration: line-through;
+	text-decoration-color: #A9A9A9;
+	text-transform: uppercase;
+	color: #A9A9A9;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 18px;
+}
+.new-price{
+	background-color: var(--basic-red);
+	color:white;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 18px;
+}
+.item-card{
+	border: 1px solid #EAEAEA;
+	box-sizing: border-box;
+}
+.item-card p{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+}
+.item-card span{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 18px;
+}
+.item-card img{
+	background-color: var(--basic-background)
 }
 .pathname li{
 	display: inline-block;
@@ -182,6 +242,10 @@ a.footer-nav-item,
 }
 .pathname a{
 	color:var(--base-blue);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
 }
 h1{
 	background-color: var(--basic-background);
@@ -195,23 +259,6 @@ h1{
 fieldset{
 	border:none;
 }
-.old-price{
-	text-decoration: line-through;
-	text-decoration-color: #A9A9A9;
-	text-transform: uppercase;
-	color: #A9A9A9;
-}
-.new-price{
-	background-color: var(--basic-red);
-	color:white;
-}
-.item-card{
-	border: 1px solid #EAEAEA;
-	box-sizing: border-box;
-}
-.item-card img{
-	background-color: var(--basic-background)
-}
 .perf-info{
 	background-color: var(--basic-background);
 	font-size: 13px;
@@ -219,12 +266,39 @@ fieldset{
 	font-style: normal;
 	font-weight: normal;
 }
-.perf-info h2,
+.about-us{
+	font-family: Cuprum, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+}
+.contacts h2,
 .about-us h2{
-	color:black;
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
 	font-size: 30px;
 	line-height: 30px;
-	font-family: Cuprum, sans-serif;
+}
+.about-us ul{
+	list-style: none;
+}
+.credit-btn-send,
+.link-about-us{
+	background-color: var(--basic-red);
+	color:white;
+	font-size: 18px;
+	line-height: 24px;
+}
+.fieldset-filter{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+}
+.fieldset-filter ul{
+	list-style: none;
 }
 .to-buy{
 	background-color: var(--basic-green);
