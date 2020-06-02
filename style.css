@@ -157,7 +157,6 @@ a{
 }
 .footer-nav a{
 	color: var(--basic-white);
-	font-family: Cuprum, sans-serif,arial;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -198,7 +197,7 @@ a.footer-nav-item,
 	font-style: normal;
 	font-weight: normal;
 	line-height: 24px;
-	color: var(--special-for-adress,white);
+	color: var(--basic-white,white);
 }
 .button{
 	font-style: normal;
@@ -209,10 +208,12 @@ a.footer-nav-item,
 }
 .button-red{
 	background-color:var(--basic-red,red);
+	color: var(--basic-white);
 }
+.button-more-inf,
+.button-rose,
 .button-green,
 .button-outline{
-	border-radius: 2px;
 	height:38px;
 	width:192px;
 }
@@ -220,14 +221,28 @@ a.footer-nav-item,
 	background-color: var(--spesial-rose);
 	color: var(--basic-white);
 }
+.button-block{
+	width:300px;
+	height:38px;
+}
+.button-outline{
+	color:var(--basic-blue);
+}
+.button-green{
+border-radius: 2px;
+background-color: var();
+color: var(--basic-white);;
+}
 .filter, 
 .paragraph{
 	font-family: PT Sans, sans-serif, arial;
 }
-.heading{
+.h2{
 	color:black;
 	font-size: 30px;
 	line-height: 30px;
+	font-style: normal;
+	font-weight: normal;
 }
 .old-price{
 	text-decoration: line-through;
@@ -266,7 +281,7 @@ a.footer-nav-item,
 .item-card img{
 	background-color: var(--basic-background)
 }
-h1{
+.h1{
 	background-color: var(--basic-background);
 	color: var(--basic-blue);
 	font-style: normal;
@@ -287,25 +302,14 @@ fieldset{
 .about-us{
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 13px;
 	line-height: 24px;
-}
-.contacts h2,
-.about-us h2{
-	font-style: normal;
-	font-weight: normal;
-	font-size: 30px;
-	line-height: 30px;
 }
 .about-us ul{
 	list-style: none;
-}
-.credit-btn-send,
-.link-about-us{
-	background-color: var(--basic-red);
-	color:white;
+	font-style: normal;
+	font-weight: normal;
 	font-size: 18px;
-	line-height: 24px;
 }
 .fieldset-filter{
 	font-style: normal;
@@ -315,6 +319,12 @@ fieldset{
 }
 .fieldset-filter ul{
 	list-style: none;
+}
+.heading-filter{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 30px;
 }
 
 
