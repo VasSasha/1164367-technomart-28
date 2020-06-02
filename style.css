@@ -224,8 +224,7 @@ a.footer-nav-item,
 .paragraph{
 	font-family: PT Sans, sans-serif, arial;
 }
-.perf-info h2,
-.about-us h2{
+.heading{
 	color:black;
 	font-size: 30px;
 	line-height: 30px;
