@@ -220,7 +220,7 @@ a.footer-nav-item,
 	background-color: var(--spesial-rose);
 	color: var(--basic-white);
 }
-.filter,
+.filter, 
 .paragraph{
 	font-family: PT Sans, sans-serif, arial;
 }
