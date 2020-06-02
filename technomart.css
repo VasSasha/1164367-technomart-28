@@ -32,7 +32,7 @@ html{
 }
 body{
 	margin:0;
-	font-family: 'Cuprum', sans-serif;
+	font-family: 'Cuprum', sans-serif,arial;
 	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 }
@@ -157,7 +157,7 @@ a{
 }
 .footer-nav a{
 	color: var(--basic-white);
-	font-family: Cuprum, sans-serif;
+	font-family: Cuprum, sans-serif,arial;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -198,7 +198,31 @@ a.footer-nav-item,
 	font-style: normal;
 	font-weight: normal;
 	line-height: 24px;
-	color: var(--special-milk,white);
+	color: var(--special-for-adress,white);
+}
+.button{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+.button-red{
+	background-color:var(--basic-red,red);
+}
+.button-green,
+.button-outline{
+	border-radius: 2px;
+	height:38px;
+	width:192px;
+}
+.button-rose{
+	background-color: var(--spesial-rose);
+	color: var(--basic-white);
+}
+.filter,
+.paragraph{
+	font-family: PT Sans, sans-serif, arial;
 }
 .perf-info h2,
 .about-us h2{
