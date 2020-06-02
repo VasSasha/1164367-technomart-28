@@ -22,8 +22,10 @@
 html{
 	box-sizing: border-box;
 }
-*{
-	box-sizing: inherit;
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
 }
 body{
 	margin:0;
