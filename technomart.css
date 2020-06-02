@@ -16,6 +16,8 @@
 	--spesial-rose:#FF5357;
 	--special-darkblue:#161D29;
 	--special-grey: #C5C5C5;
+	--spesial-for-adress:#F3F7F9;
+	--special-for-footer-nav:#F1F5F7;
 	--warning:#FFBF47;
 	--mistake:#BA2732;
 	--success:#5FBB2D;
@@ -190,6 +192,13 @@ a.footer-nav-item,
 }
 .img-logo{
 	background-color: var(--basic-red);
+}
+.adress{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 24px;
+	color: var(--special-milk,white);
 }
 .perf-info h2,
 .about-us h2{
