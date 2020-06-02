@@ -98,7 +98,6 @@ a{
 	background-color: var(--basic-white);
 	font-size: 21px;
 	line-height: 21px;
-	font-family: Cuprum, sans-serif;
 	color:black;
 }
 .access:hover,
@@ -131,7 +130,7 @@ a{
 	color:var(--basic-red);
 	font-size: 21px;
 	line-height: 30px; 
-	border:2px solid var(--basic-white);
+	border:3px solid var(--basic-white);
 }
 .head-contact a{
 	display: block;
@@ -141,7 +140,6 @@ a{
 }
 .main-nav ul li{
 	display: inline-block;
-	font-family: Cuprum;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -150,7 +148,6 @@ a{
 .footer-navigation{
 	background-color: var(--basic-blue);
 	margin:0;
-	font-family: Cuprum, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -171,7 +168,6 @@ footer ul{
 	background-color: var(--basic-darkblue);
 	color:white;
 	margin:0;
-	font-family: Cuprum, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -183,7 +179,14 @@ a.footer-nav-item,
 	color:var(--special-yellowlight);
 }
 .visually-hidden{
-	display: none;
+	position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .img-logo{
 	background-color: var(--basic-red);
@@ -193,7 +196,6 @@ a.footer-nav-item,
 	color:black;
 	font-size: 30px;
 	line-height: 30px;
-	font-family: Cuprum, sans-serif;
 }
 .old-price{
 	text-decoration: line-through;
@@ -232,23 +234,9 @@ a.footer-nav-item,
 .item-card img{
 	background-color: var(--basic-background)
 }
-.pathname li{
-	display: inline-block;
-	font-family: Cuprum, sans-serif;
-	font-size: 13px;
-	line-height: 18px;
-}
-.pathname a{
-	color:var(--base-blue);
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: 18px;
-}
 h1{
 	background-color: var(--basic-background);
 	color: var(--basic-blue);
-	font-family: Cuprum, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 30px;
@@ -265,7 +253,6 @@ fieldset{
 	font-weight: normal;
 }
 .about-us{
-	font-family: Cuprum, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -273,7 +260,6 @@ fieldset{
 }
 .contacts h2,
 .about-us h2{
-	font-family: Cuprum;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 30px;
