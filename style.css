@@ -42,12 +42,24 @@ body{
 }
 a{
 	text-decoration: none;
+	display: inline-block;
 }
 .img-logo{
-	background-color: var(--basic-red,red)
+	background-color: var(--basic-red,red);
+}
+.link-logo:after{
+	content:'';
+	background-color: var(--basic-red,red);
+	box-shadow:0px -5px 0px rgba(0, 0, 0, 0.24);
 }
 .header-wrapper{
 	display:flex;
+	height:42px;
+}
+.link-logo{
+	background-color: var(--basic-red,red);
+	height:47px;
+	width:220px;
 }
 .header-wrapper a{
 	line-height: 36px;
@@ -68,22 +80,52 @@ a{
 .header-wrapper a,
 .main-nav a{
 	color:var(--basic-white, white);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px; 
 }
-.header-wrapper input{
+.search{
 	background-color: var(--basic-darkblue);
 	border:none;
+	background-image: url(img/icon-search.svg);
+	background-repeat: no-repeat;
+	background-position:;
 }
-.header-wrapper input:focus{
+.search:focus{
 	background-color: var(--basic-white);
 	outline: none;
 }
-.header-wrapper input::placeholder{
+.search::placeholder{
 	color:var(--basic-white, white);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px; 
 }
 .cart{
 	background-color:var(--basic-darkblue, blue);
 	color:var(--basic-white, white);
 	text-decoration: none;
+	background-image: url(img/icon-cart.svg);
+	background-repeat: no-repeat;
+}
+.bookmark{
+	background-image: url(img/icon-bookmark.svg);
+	background-repeat: no-repeat;
+}
+.bookmark:active,
+.cart:active{
+	opacity:.5;
+	background-color: #161D29;
+}
+.bookmark:hover,
+.bookmark:focus,{
+	background-image: url("data:image/svg+xml,%3Csvg width='14' height='16' fill='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 15c0 .55-.37.74-.82.43l-5.36-3.77a1.54 1.54 0 00-1.64 0L.82 15.43c-.45.31-.82.12-.82-.43V1a1 1 0 011-1h12a1 1 0 011 1v14z' fill='%23fff' opacity='1'/%3E%3C/svg%3E");
+}
+.cart:hover,
+.cart:focus{
+	background-image: url("data:image/svg+xml,%3Csvg width='15' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='1' fill='%23fff'%3E%3Cpath d='M4.5 15a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM12.5 15a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951V2z'/%3E%3C/g%3E%3C/svg%3E");
 }
 .order{
 	background-color: var(--basic-green, red);
@@ -111,7 +153,14 @@ a{
 }
 .user-name{
 	color:black;
-	background-color: var(--basic);
+	background-color: rgba(0, 0, 0, 0.0001);
+	position: relative;
+	left:20px;
+}
+.user-block{
+	background-color: white;
+	background-image: url(img/icon-user.svg);
+	background-repeat: no-repeat;
 }
 .user-name:active{
 	color:var(--special-grey);
@@ -128,11 +177,20 @@ a{
 .user-account:active{
 	color:var(--special-grey);
 }
+.exit{
+	background-image: url(img/icon-logout.svg);
+	background-repeat: no-repeat;
+	width:20px;
+	height:17px;
+	border:none;
+}
 .phone{
 	color:var(--basic-red);
 	font-size: 21px;
 	line-height: 30px; 
 	border:3px solid var(--basic-white);
+	background-image: url(img/icon-phone.svg);
+	background-repeat: no-repeat;
 }
 .head-contact a{
 	display: block;
@@ -213,9 +271,10 @@ a.footer-nav-item,
 .button-more-inf,
 .button-rose,
 .button-green,
-.button-outline{
+.button-outline,
+.button-red{
 	height:38px;
-	width:192px;
+	width:192px;	
 }
 .button-rose{
 	background-color: var(--spesial-rose);
@@ -227,11 +286,19 @@ a.footer-nav-item,
 }
 .button-outline{
 	color:var(--basic-blue);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
 }
 .button-green{
-border-radius: 2px;
-background-color: var();
-color: var(--basic-white);;
+	border-radius: 2px;
+	background-color: var(--basic-green);
+	color: var(--basic-white);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
 }
 .filter, 
 .paragraph{
@@ -325,6 +392,23 @@ fieldset{
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 30px;
+}
+.filter input{
+	font-size: 15px;
+	line-height: 19px;
+}
+.breadcrumbs a{
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	color: black;
+	text-transform: uppercase;
+}
+.breadcrumbs-icon{
+	background-image: url(img/icon-home.svg);
+	background-repeat: no-repeat;
 }
 
 
