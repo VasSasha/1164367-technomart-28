@@ -446,5 +446,9 @@ fieldset{
 	background-image: url(img/icon-to-right.svg);
 	background-repeat: no-repeat;
 }
+.catalog{
+	background-image: url(img/icon-home.svg);
+	background-repeat: no-repeat;
+}
 
 
