@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="technomart.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>HTML Academy: Техномарт</title>
 </head>
@@ -61,13 +61,15 @@
 </nav>
 </header>
 <main>
-  <p class="pathname">
+  <div class="breadcrumbs">
     <a href="">Каталог</a>
-    >
+    <div class="breadcrumbs-icon">
+      <p class="visually-hidden">to right</p>
+    </div>
     <a href="">Инструменты</a>
-    >
+    <p class="breadcrumbs-icon visually-hidden"> to right</p>
     <a href="">Перфораторы</a>
-  </p>
+  </div>
   <h1 class="h1">Перфораторы</h1>
   <div>
     <h2>Сортировка:</h2>
