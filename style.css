@@ -165,6 +165,9 @@ a{
 .user-name:active{
 	color:var(--special-grey);
 }
+.user-name:hover{
+	color:var(--basic-red);
+}
 .user-orders,
 .user-account{
 	color:var(--basic-blue);
@@ -198,12 +201,20 @@ a{
 .main-nav ul{
 	list-style: none;
 }
-.main-nav ul li{
+.main-nav li{
 	display: inline-block;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
+}
+.main-nav li:hover,
+.main-nav li:focus{
+	background-color: #293449;
+}
+.main-nav li:active{
+	background-color: #1D2739;
+	opacity: .5;
 }
 .footer-navigation{
 	background-color: var(--basic-blue);
@@ -407,7 +418,7 @@ fieldset{
 	text-transform: uppercase;
 }
 .breadcrumbs-icon{
-	background-image: url(img/icon-home.svg);
+	background-image: url(img/icon-to-right.svg);
 	background-repeat: no-repeat;
 }
 
