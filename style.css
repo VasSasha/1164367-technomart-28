@@ -120,7 +120,7 @@ a{
 	background-color: #161D29;
 }
 .bookmark:hover,
-.bookmark:focus,{
+.bookmark:focus{
 	background-image: url("data:image/svg+xml,%3Csvg width='14' height='16' fill='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 15c0 .55-.37.74-.82.43l-5.36-3.77a1.54 1.54 0 00-1.64 0L.82 15.43c-.45.31-.82.12-.82-.43V1a1 1 0 011-1h12a1 1 0 011 1v14z' fill='%23fff' opacity='1'/%3E%3C/svg%3E");
 }
 .cart:hover,
@@ -187,6 +187,10 @@ a{
 	height:17px;
 	border:none;
 }
+.login{
+	background-image: url(img/icon-login.svg);
+	background-repeat: no-repeat;
+}
 .phone{
 	color:var(--basic-red);
 	font-size: 21px;
@@ -242,6 +246,27 @@ footer ul{
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 18px;
+}
+.social-net a{
+	background-repeat: no-repeat;
+	background-color: #212A3A;
+	background-position: 
+	height:44px;
+	width:44px;
+	border-radius: 100px;
+}
+.vk-icon{
+	background-image: url(img/icon-vk.svg);
+	background-color:#212A3A;
+	height:44px;
+	width:44px;
+	border-radius: 100px;
+}
+.fc-icon{
+	background-image: url(img/icon-facebook.svg);
+}
+.ig-icon{
+	background-image: url(img/icon-instagram.svg);
 }
 a.footer-nav-item,
 .footer-links .feedback,
