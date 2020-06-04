@@ -18,6 +18,7 @@
 	--special-grey: #C5C5C5;
 	--spesial-for-adress:#F3F7F9;
 	--special-for-footer-nav:#F1F5F7;
+	--spesial-heading:border:#F9F5F0;
 	--warning:#FFBF47;
 	--mistake:#BA2732;
 	--success:#5FBB2D;
@@ -341,6 +342,8 @@ a.footer-nav-item,
 .button-green{
 	background-color: var(--basic-green);
 	color: var(--basic-white);
+	background-image: url(img/icon-cart.svg);
+	background-repeat: no-repeat;
 }
 .button-green:hover,
 .button-green:focus{
@@ -533,6 +536,16 @@ fieldset{
 	background-image: url(img/icon-home.svg);
 	background-repeat: no-repeat;
 }
+.btn-filter{
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	background-color: white;
+	border: 1px solid #E5E5E5;
+	text-transform: uppercase;
+}
 a.btn-add-card{
 	text-transform: uppercase;
 }
@@ -546,5 +559,17 @@ a.btn-add-card{
 	font-size: 30px;
 	line-height: 30px;
 	color:var(--basic-blue);
+}
+.black-heading{
+	color:black;
+}
+.info-about-perf p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 24px;
+}
+.info-about-perf{
+	background-color: var(--basic-background)
 }
 
