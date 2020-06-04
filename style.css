@@ -448,6 +448,47 @@ fieldset{
 	font-weight: normal;
 	font-size: 18px;
 }
+.popular-brands ul{
+	list-style: none;
+}
+.btn-services{
+	color:white;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 30px;
+	text-align: center;
+	display: block;
+	height:61px;
+	width:240px;
+	color:white;
+	background-color: var(--basic-blue);
+}
+.btn-services:active,{
+	color:var(--basic-blue);
+	background-color: white;
+}
+.btn-services:hover,
+.btn-services:focus{
+	background-color:var(--basic-darkblue);
+}
+.services-block ul{
+	list-style: none;
+}
+.sercive{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 24px;
+	color:var(--basic-blue);
+}
+.sercive h3{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 24px;
+	color:var(--basic-blue);
+}
 .fieldset-filter{
 	font-style: normal;
 	font-weight: normal;
