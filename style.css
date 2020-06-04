@@ -220,19 +220,16 @@ a{
 	background-color: #1D2739;
 	opacity: .5;
 }
-.footer-navigation{
+.footer-main-nav{
 	background-color: var(--basic-blue);
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
-}
-.footer-nav a{
 	color: var(--basic-white);
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 24px;
+}
+.footer-main-nav a{
+	color: var(--basic-white);
 }
 footer ul{
 	list-style: none;
