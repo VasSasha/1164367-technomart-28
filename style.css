@@ -151,16 +151,20 @@ a{
 .access:active{
 	color: var(--special-grey);
 }
+.user-block{
+	background-color: white;
+	background-image: url(img/icon-user.svg);
+	background-repeat: no-repeat;
+}
 .user-name{
 	color:black;
 	background-color: rgba(0, 0, 0, 0.0001);
 	position: relative;
 	left:20px;
-}
-.user-block{
-	background-color: white;
-	background-image: url(img/icon-user.svg);
-	background-repeat: no-repeat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 21px;
 }
 .user-name:active{
 	color:var(--special-grey);
@@ -171,6 +175,10 @@ a{
 .user-orders,
 .user-account{
 	color:var(--basic-blue);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
 }
 .user-orders:hover,
 .user-account:hover{
