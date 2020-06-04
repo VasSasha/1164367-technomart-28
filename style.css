@@ -319,18 +319,13 @@ a.footer-nav-item,
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
-	font-family: Cuprum, sans-serif,arial
+	height:38px;
+	width:192px;
+	text-align: center;	
 }
 .button-red{
 	background-color:var(--basic-red,red);
 	color: var(--basic-white);
-}
-.button-more-inf,
-.button-rose,
-.button-red{
-	height:38px;
-	width:192px;
-	text-align: center;	
 }
 .button-green,
 .button-outline{
