@@ -257,7 +257,6 @@ a{
 }
 .vk-icon{
 	background-image: url(img/icon-vk.svg);
-	/*background-position: center center;*/
 	height:44px;
 	width:44px;
 	border-radius: 100px;
@@ -273,6 +272,20 @@ a.footer-nav-item,
 .footer-links .developed-by{
 	color:var(--special-yellowlight);
 }
+.footer-nav-item:hover{
+	text-decoration: underline;
+	text-decoration-color: var(--special-yellowlight)
+}
+.footer-main-nav a:hover{
+	text-decoration: underline;
+	text-decoration-color: var(--basic-white)
+}
+.footer-nav-item:active,
+.footer-main-nav a:active{
+	opacity: .5;
+	text-decoration:none;
+}
+
 .visually-hidden{
 	position: absolute;
     width: 1px;
