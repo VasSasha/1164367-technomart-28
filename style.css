@@ -222,7 +222,6 @@ a{
 }
 .footer-navigation{
 	background-color: var(--basic-blue);
-	margin:0;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -241,7 +240,6 @@ footer ul{
 .footer-links{
 	background-color: var(--basic-darkblue);
 	color:white;
-	margin:0;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -250,13 +248,13 @@ footer ul{
 .social-net a{
 	background-repeat: no-repeat;
 	background-color: #212A3A;
-	background-position: 
 	height:44px;
 	width:44px;
 	border-radius: 100px;
 }
 .vk-icon{
 	background-image: url(img/icon-vk.svg);
+	background-position: center center;
 	background-color:#212A3A;
 	height:44px;
 	width:44px;
