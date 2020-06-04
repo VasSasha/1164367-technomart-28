@@ -347,6 +347,22 @@ a.footer-nav-item,
 	background-color: var(--basic-green);
 	color: var(--basic-white);
 }
+.button-green:hover,
+.button-green:focus{
+	background-color: var(--success);
+}
+.button-outline:hover,
+.button-outline:focus{
+	color:var(--basic-blue);
+	border: 3px solid var(--basic-blue);
+	background-color: var(--basic-white);
+}
+.button-outline:active{
+	opacity: .5;
+}
+.button-green:active{
+	background-color: #518534;
+}
 a.button-red{
 	padding-top:11px;
 	padding-bottom:9px;
