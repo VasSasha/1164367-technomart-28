@@ -285,7 +285,6 @@ a.footer-nav-item,
 	opacity: .5;
 	text-decoration:none;
 }
-
 .visually-hidden{
 	position: absolute;
     width: 1px;
@@ -312,6 +311,7 @@ a.footer-nav-item,
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
+	font-family: Cuprum, sans-serif,arial
 }
 .button-red{
 	background-color:var(--basic-red,red);
@@ -319,11 +319,29 @@ a.footer-nav-item,
 }
 .button-more-inf,
 .button-rose,
-.button-green,
-.button-outline,
 .button-red{
 	height:38px;
-	width:192px;	
+	width:192px;
+	text-align: center;	
+}
+.button-green,
+.button-outline{
+	height:38px;
+	width:135px;
+	border-radius: 2px;
+}
+.button-outline{
+	color:var(--basic-blue);
+	border: 3px solid var(--basic-green);
+	background-color: var(--basic-white);
+}
+.button-green{
+	background-color: var(--basic-green);
+	color: var(--basic-white);
+}
+a.button-red{
+	padding-top:11px;
+	padding-bottom:9px;
 }
 .button-rose{
 	background-color: var(--spesial-rose);
@@ -332,22 +350,6 @@ a.footer-nav-item,
 .button-block{
 	width:300px;
 	height:38px;
-}
-.button-outline{
-	color:var(--basic-blue);
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 18px;
-}
-.button-green{
-	border-radius: 2px;
-	background-color: var(--basic-green);
-	color: var(--basic-white);
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 18px;
 }
 .filter, 
 .paragraph{
