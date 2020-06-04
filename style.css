@@ -281,7 +281,12 @@ a.footer-nav-item,
 .footer-links .developed-by{
 	color:var(--special-yellowlight);
 }
-.footer-nav-item:hover{
+.footer-nav-item:hover,
+.footer-links .feedback:hover,
+.footer-links .developed-by:hover,
+.footer-nav-item:focus,
+.footer-links .feedback:focus,
+.footer-links .developed-by:focus{
 	text-decoration: underline;
 	text-decoration-color: var(--special-yellowlight)
 }
@@ -290,7 +295,9 @@ a.footer-nav-item,
 	text-decoration-color: var(--basic-white)
 }
 .footer-nav-item:active,
-.footer-main-nav a:active{
+.footer-main-nav a:active,
+.footer-links .feedback:active,
+.footer-links .developed-by:active{
 	opacity: .5;
 	text-decoration:none;
 }
