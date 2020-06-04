@@ -376,10 +376,10 @@ a.button-red{
 }
 .h2{
 	color:black;
-	font-size: 30px;
-	line-height: 30px;
+	font-size: 36px;
+	line-height: 36px;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	text-transform: uppercase;
 }
 .old-price{
@@ -526,6 +526,8 @@ fieldset{
 .breadcrumbs-icon{
 	background-image: url(img/icon-to-right.svg);
 	background-repeat: no-repeat;
+	width: 6.52px;
+	height: 10.3px;
 }
 .catalog-link{
 	background-image: url(img/icon-home.svg);
@@ -533,5 +535,16 @@ fieldset{
 }
 a.btn-add-card{
 	text-transform: uppercase;
+}
+.slider ul{
+	list-style: none;
+}
+.heading2{
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 30px;
+	color:var(--basic-blue);
 }
 
