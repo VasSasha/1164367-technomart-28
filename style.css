@@ -380,6 +380,7 @@ a.button-red{
 	line-height: 30px;
 	font-style: normal;
 	font-weight: normal;
+	text-transform: uppercase;
 }
 .old-price{
 	text-decoration: line-through;
@@ -530,5 +531,7 @@ fieldset{
 	background-image: url(img/icon-home.svg);
 	background-repeat: no-repeat;
 }
-
+a.btn-add-card{
+	text-transform: uppercase;
+}
 
