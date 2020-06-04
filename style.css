@@ -425,6 +425,7 @@ a.button-red{
 	font-weight: normal;
 	font-size: 30px;
 	line-height: 30px;
+	text-transform: uppercase;
 }
 fieldset{
 	border:none;
@@ -475,19 +476,23 @@ fieldset{
 .services-block ul{
 	list-style: none;
 }
-.sercive{
+.service{
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
 	line-height: 24px;
 	color:var(--basic-blue);
 }
-.sercive h3{
+.service h3{
 	font-style: normal;
 	font-weight: normal;
 	font-size: 36px;
 	line-height: 24px;
 	color:var(--basic-blue);
+	text-transform: uppercase;
+}
+.services-block{
+	background-color: var(--basic-background)
 }
 .fieldset-filter{
 	font-style: normal;
