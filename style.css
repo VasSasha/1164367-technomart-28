@@ -426,7 +426,7 @@ a.button-red{
 	color:var(--basic-blue);
 }
 .heading-bg{
-	background-color: var(--special-background)
+	background-color: #F9F5F0;
 }
 .service-heading{
 	color:black;
@@ -631,6 +631,4 @@ a.btn-add-card{
 .btn-second-slide:active{
 	background-color: var(--basic-red);
 }
-.heading-bg{
-	background-color: #F9F5F0;
-}
+
