@@ -92,6 +92,8 @@ a{
 	background-image: url(img/icon-search.svg);
 	background-repeat: no-repeat;
 	background-position:;
+	font-size: 18px;
+	line-height: 24px; 
 }
 .search:focus{
 	background-color: var(--basic-white);
@@ -99,8 +101,6 @@ a{
 }
 .search::placeholder{
 	color:var(--basic-white, white);
-	font-style: normal;
-	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px; 
 }
@@ -213,6 +213,7 @@ a{
 	border:3px solid var(--basic-white);
 	background-image: url(img/icon-phone.svg);
 	background-repeat: no-repeat;
+	font-weight: bold;
 }
 .head-contact a{
 	display: block;
