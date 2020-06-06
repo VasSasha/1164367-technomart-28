@@ -440,9 +440,6 @@ a.button-red{
 	line-height: 30px;
 	text-transform: uppercase;
 }
-fieldset{
-	border:none;
-}
 .perf-info{
 	background-color: var(--basic-background);
 	font-size: 13px;
@@ -512,6 +509,7 @@ fieldset{
 	font-weight: normal;
 	font-size: 15px;
 	line-height: 19px;
+	border:none;
 }
 .fieldset-filter ul{
 	list-style: none;
