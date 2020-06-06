@@ -66,6 +66,9 @@
 </header>
 <main>
   <div class="breadcrumbs">
+     <a class="breadcrumbs-icon-home">
+      <p class="visually-hidden">to right</p>
+    </a>
     <a href="catalog.html" class="catalog-link">Каталог</a>
     <a class="breadcrumbs-icon">
       <p class="visually-hidden">to right</p>
@@ -78,14 +81,14 @@
   </div>
   <h1 class="heading">Перфораторы</h1>
   <div class="sorting">
-    <h3>Сортировка:</h3>
+    <h3 class="heading-filter">Сортировка:</h3>
      <a href="">По цене</a>
      <a href="">По типу</a>
      <a href="">По функционалу</a>
-     <a href="">
+     <a href="" class="increase">
          <span class="visually-hidden">по возрастанию</span>
      </a>
-     <a href="">
+     <a href="" class="decrease">
          <span class="visually-hidden">по убыванию</span>
      </a>
   </div>
@@ -94,12 +97,16 @@
     <form action="https://echo.htmlacademy.ru" method="get">
       <fieldset class="fieldset-filter">
         <legend class="heading-filter">Цена</legend>
-          <input type="range" multiple>
+        <div class="for-price-range">
+          <input type="range" multiple class="price-range">
+        </div>
           <label>
-            <span class="visually-hidden">c</span><input type="number" name="fromPrice" min="0">
+            <span class="visually-hidden">c</span>
+            <input type="number" name="fromPrice" min="0" class="input-for-price form-prise">
           </label>
           <label>
-            <span class="visually-hidden">до</span><input type="number" name="toPrice" min="0">
+            <span class="visually-hidden">до</span>
+            <input type="number" name="toPrice" min="0" class="input-for-price">
           </label>
       </fieldset>
       <fieldset class="fieldset-filter">

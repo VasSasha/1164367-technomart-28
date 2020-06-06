@@ -510,9 +510,42 @@ a.button-red{
 	line-height: 30px;
 	text-transform: uppercase;
 }
-.filter input{
-	font-size: 15px;
-	line-height: 19px;
+.fieldset-filter input{
+	background-color:#F7F3EC;
+	border:none;
+}
+.input-for-price{
+	height:38px;
+	width:95px;
+}
+.for-price-range{
+	background-color:#F7F3EC;
+	height:80px;
+	width:220px;
+}
+.sorting{
+	text-transform: uppercase;
+}
+.sorting a{
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	color: rgba(0,0,0,.3);
+	border-bottom: 1px dashed var(--basic-red);
+}
+a.increase,
+a.decrease{
+	background-image: url(img/icon-down-dir.svg);
+	background-repeat: no-repeat;
+}
+.increase{
+	background-rotate:180deg;
+}
+.increase:active,
+.decrease:active{
+	background-image: url();
 }
 .breadcrumbs a{
 	font-family: PT Sans;
@@ -523,14 +556,21 @@ a.button-red{
 	color: black;
 	text-transform: uppercase;
 }
+.breadcrumbs-icon-home,
 .breadcrumbs-icon{
 	background-image: url(img/icon-to-right.svg);
 	background-repeat: no-repeat;
 	width: 6.52px;
 	height: 10.3px;
 }
-.catalog-link{
+.breadcrumbs-icon-home{
 	background-image: url(img/icon-home.svg);
+	background-repeat: no-repeat;
+	width: 6.52px;
+	height: 10.3px;
+}
+.catalog-link{
+	background-image: url(img/icon-to-right.svg);
 	background-repeat: no-repeat;
 }
 .btn-filter{
@@ -630,5 +670,35 @@ a.btn-add-card{
 .btn-first-slide:active,
 .btn-second-slide:active{
 	background-color: var(--basic-red);
+}
+.brand-bosch{
+	background-image: url(img/bosch.png);
+}
+.brand-makita{
+	background-image: url(img/makita.png);
+}
+.brand-interskol{
+	background-image: url(img/interskol.png);
+}
+.brand-dewalt{
+	background-image: url(img/dewalt.png);
+}
+.brand-aeg{
+	background-image: url(img/aeg.png);
+}
+.brand-lg{
+	background-image: url(img/lg.png);
+}
+.brand-hitachi{
+	background-image: url(img/hitachi.png);
+}
+.brand-metabo{
+	background-image: url(img/metabo.png);
+}
+.popular-brands li{
+	background-repeat: no-repeat;
+	height:145px;
+	width:220px;
+	border: 1px solid #EAEAEA;
 }
 
