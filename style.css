@@ -456,7 +456,7 @@ a.button-red{
 	color:white;
 	background-color: var(--basic-blue);
 }
-.btn-services:active,{
+.btn-services:active{
 	color:var(--basic-blue);
 	background-color: white;
 }
@@ -472,11 +472,26 @@ a.button-red{
 	line-height: 24px;
 	color:var(--basic-blue);
 	text-transform: uppercase;
-	font-weight: normal;
-	font-style:normal;
+	font-weight: normal; 
 }
 .services-block{
 	background-color: var(--basic-background)
+}
+.guaranty,
+.delivery,
+.credit{
+	background-repeat: no-repeat;
+	height:250px;
+}
+.delivery{
+	background-image: url(img/delivery.png);
+	background-repeat: no-repeat;
+}
+.guaranty{
+	background-image: url(img/guaranty.png);
+}
+.credit{
+	background-image: url(img/credit.png);
 }
 .fieldset-filter{
 	font-style: normal;
@@ -526,9 +541,6 @@ a.button-red{
 	line-height: 18px;
 	background-color: white;
 	border: 1px solid #E5E5E5;
-	text-transform: uppercase;
-}
-.btn-add-card{
 	text-transform: uppercase;
 }
 .slider ul{
