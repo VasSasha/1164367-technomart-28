@@ -564,4 +564,73 @@ a.button-red{
 .info-about-perf{
 	background-color: var(--basic-background)
 }
-
+.add-card{
+	height:123px;
+	width:300px;
+	background-repeat: no-repeat;
+	background-position: 80%, 50%;
+}
+.add-card p{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+	color:var(--basic-white);
+}
+a.btn-add-card{
+	text-transform: uppercase;
+	color:var(--basic-white);
+	background-color: rgba(255,255,255,.3);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	height:38px;
+	width:135px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.material-card{
+	background-color: var(--special-yellow);
+	background-image: url(img/icon-materials.svg);
+}
+.instument-card{
+	background-color: var(--special-blue);
+	background-image: url(img/icon-instr.svg);
+}
+.tech-card{
+	background-color: var(--special-lilac);
+	background-image: url(img/icon-tech.svg);
+}
+.sales-card{
+	background-color: var(--special-greenlight);
+	background-image: url(img/icon-sale.svg);
+}
+.delivery-card{
+	background-color:  #FFC047;
+	background-image: url(img/icon-delivery.svg);
+}
+.btn-previous-slide,
+.btn-next-slide{
+	background-image: url(img/icon-for-slider.svg);
+	height:40px;
+	width:22px;
+}
+.btn-next-slide{
+	background-rotate:180deg;
+}
+.btn-first-slide,
+.btn-second-slide{
+	border-radius:50%;
+	height:10px;
+	width:10px;
+	background-color: blue;
+	border:2px solid white;
+}
+.btn-first-slide:active,
+.btn-second-slide:active{
+	background-color: var(--basic-red);
+}
+.heading-bg{
+	background-color: #F9F5F0;
+}
