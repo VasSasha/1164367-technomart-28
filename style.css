@@ -607,6 +607,26 @@ a.decrease{
 	border: 1px solid #E5E5E5;
 	text-transform: uppercase;
 }
+.pages a{
+	color:black;
+	text-align: center;
+	border: 1px solid #E5E5E5;
+	border-radius: 2px;
+	font-family: PT Sans,sans-serif,arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	height:38px;
+	width:38px;
+}
+a.next-page{
+	width:140;
+	text-transform: uppercase;
+}
+.pages a:active{
+	background-color: var(--basic-red);
+}
 .slider ul{
 	list-style: none;
 }
