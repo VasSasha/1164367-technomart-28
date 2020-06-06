@@ -326,7 +326,8 @@ a.dev-contacts{
 	text-transform: uppercase;
 	height:38px;
 	width:192px;
-	text-align: center;	
+	text-align: center;
+	font-family: Cuprum, sans-serif,arial;
 }
 .button-red{
 	background-color:var(--basic-red,red);
