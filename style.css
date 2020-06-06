@@ -497,6 +497,7 @@ a.button-red{
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 30px;
+	text-transform: uppercase;
 }
 .filter input{
 	font-size: 15px;
@@ -537,17 +538,13 @@ a.button-red{
 .slider ul{
 	list-style: none;
 }
-.heading2{
+.slider-heading{
 	text-transform: uppercase;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 30px;
-	line-height: 30px;
-	color:var(--basic-blue);
-	background-color: #F9F5F0;
-}
-.black-heading{
-	color:black;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 36px;
+	color:var(--basic-white);
 }
 .paragraph{
 	font-style: normal;
