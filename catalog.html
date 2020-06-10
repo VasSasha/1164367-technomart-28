@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="utf-8">
@@ -20,9 +20,8 @@
   <p class="definition">Интернет-магазин <br>строительных материалов <br>и инструментов для ремонта</p>
     <div class="head-contact">
       <a href="tel:+78125550555" class="phone">+7 (812) 555-05-55</a>
-      <a href="">г. Санкт-Петербург, ул.Б.Конюшенная, д.19/8</a>
+      <a href="" class="header-adress">г. Санкт-Петербург, ул.Б.Конюшенная, д.19/8</a>
     </div>
-    <div>
     <div>
       <div class="user-block">
         <a href="" class="user-name">Имя пользователя</a>
@@ -36,7 +35,6 @@
     <div>
          <a href="" class="access login">Войти</a>
          <a href="" class="access">Регистрация</a>
-    </div>
     </div>
 <nav class="main-nav">
   <ul>
@@ -82,9 +80,9 @@
   <h1 class="heading">Перфораторы</h1>
   <div class="sorting">
     <h3 class="heading-filter">Сортировка:</h3>
-     <a href="">По цене</a>
-     <a href="">По типу</a>
-     <a href="">По функционалу</a>
+     <a href="" class="sorting-setting">По цене</a>
+     <a href="" class="sorting-setting">По типу</a>
+     <a href="" class="sorting-setting">По функционалу</a>
      <a href="" class="increase">
          <span class="visually-hidden">по возрастанию</span>
      </a>
@@ -99,6 +97,7 @@
         <legend class="heading-filter">Цена</legend>
         <div class="for-price-range">
           <input type="range" multiple class="price-range">
+          <span class="range"></span>
         </div>
           <label>
             <span class="visually-hidden">c</span>
@@ -113,34 +112,34 @@
         <legend class="heading-filter">Производители:</legend>
         <ul>
             <li>
-              <label>
-                <input type="checkbox" name="brands[]" value="bosch">
+              <label class="filter-button">
+                <input type="checkbox" name="brands[]" value="bosch" class="input-check">
                 <span class="brand-checkbox">Bosch</span>
               </label>
             </li>
             <li>
-              <label>
-                <input type="checkbox" name="brands[]" value="interskol">
-                <span class="brand-checkbox"> Интерскол</span>
+              <label class="filter-button">
+                <input type="checkbox" name="brands[]" value="interskol" class="input-check">
+                  <span class="brand-checkbox"> Интерскол</span>
               </label>
             </li>
             <li>
-              <label>
-                <input type="checkbox" name="brands[]" value="makita">
-                <span class="brand-checkbox"> Makita</span>
+              <label class="filter-button">
+                <input type="checkbox" name="brands[]" value="makita" class="input-check">
+                  <span class=" brand-checkbox"> Makita</span>
                 </label>
             </li>
             <li>
-              <label>
-                <input type="checkbox" name="brands[]" value="dewalt">
-                <span class="brand-checkbox"> Dewalt</span>
+              <label class="filter-button">
+                <input type="checkbox" name="brands[]" value="dewalt" class="input-check">
+                  <span class="brand-checkbox"> Dewalt</span>
                 </label>
             </li>
             <li>
-                <label>
-                <input type="checkbox"  name="brands[]" value="hitachi">
-                <span class="brand-checkbox"> Hitachi</span>
-                </label>
+              <label class="filter-button">
+                <input type="checkbox"  name="brands[]" value="hitachi" class="input-check">
+                  <span class="brand-checkbox"> Hitachi</span>
+              </label>
             </li>
         </ul>
       </fieldset>
@@ -148,15 +147,15 @@
         <legend class="heading-filter">Питание:</legend>
           <ul>
             <li>
-              <label>
-                <input type="radio" name="power" value="battery">
-                <span class="power-radio"> Акумуляторные</span>
+              <label class="filter-button">
+                <input type="radio" name="power" value="battery" class="input-radio">
+                  <span class="power-radio"> Акумуляторные</span>
               </label>
             </li>
             <li>
-              <label>
-                <input type="radio" name="power" value="net">
-                <span class="power-radio"> Сетевые</span>
+              <label class="filter-button">
+                <input type="radio" name="power" value="net" class="input-radio">
+                    <span class="power-radio"> Сетевые</span>
               </label>
             </li>
           </ul>
