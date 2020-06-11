@@ -509,10 +509,6 @@ a{
 	line-height: 30px;
 	text-transform: uppercase;
 }
-.fieldset-filter input{
-	background-color:#F7F3EC;
-	border:none;
-}
 .price-range{
 	height:38px;
 	width:180px;
@@ -520,38 +516,29 @@ a{
 }
 .price-range::-webkit-slider-thumb{
 	-webkit-appearance:none;
-	border:0.5px solid #E8E8E1;
+	background-color: #ABABAB;
+	display: block;
+	border:0.5px solid #ABABAB;
 	width:20px;
-	height:22px;
+	height:20px;
 	border-radius: 100px;
-	margin-top: -12px;
-	background-color: white;
+	border:8px solid white;
 	box-shadow: 0 5px 5px -5px grey;
+	margin-top:-12px;
 }
-.range:before{
-	content:'';
-	color:grey;
-	background-color: grey;
-	height:3px;
-	width:3px;
-}
-.range:after{
-	content: '';
-	background-color: white;
-	border:0.5px solid #E8E8E1;
+.range{
+	background-color: #ABABAB;
+	display: block;
+	border:0.5px solid #ABABAB;
 	width:20px;
-	height:22px;
+	height:20px;
 	border-radius: 100px;
-	margin-top: -12px;
-	background-color: white;
+	border:8px solid white;
 	box-shadow: 0 5px 5px -5px grey;
-}
-.price-range::-ms-track{
-	width:95px;
-	cursor:pointer;
-	background-color: transparent;
-	color:transparent;
-	border-color:transparent;
+	z-index: 2;
+	margin-top:-56px;
+	margin-left:12px;
+	z-index:2;
 }
 .price-range::-webkit-slider-runnable-track{
 	width:180px;
@@ -559,11 +546,28 @@ a{
 	background-color:#D7DCDE;
 	border-radius: 2px;
 	border:0.5px solid #E8E8E1;
+	text-align: center;
 }
-.for-price-range{
+.for-price-range input{
+	position:relative;
+	background-color:transparent;
+	padding-top:39px;
+	padding-bottom:39px;
+	padding-left:20px;
+	padding-right:20px;
+}
+.price-range-bg{
 	background-color:#F7F3EC;
 	height:80px;
 	width:220px;
+}
+.input-for-price{
+	background-color:#F7F3EC;
+	height:38px;
+	width:95px;
+	border:none;
+	font-size: 17px;
+	line-height: 18px;
 }
 .input-radio,
 .input-check{
