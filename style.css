@@ -343,17 +343,20 @@ a{
 .button-outline{
 	border-radius: 2px;
 	width:135px;
+	font-size: 14px;
 }
 .button-outline{
 	color:var(--basic-blue);
 	border: 3px solid var(--basic-green);
 	background-color: var(--basic-white);
+	line-height: 12px;
 }
 .button-green{
 	background-color: var(--basic-green);
 	color: var(--basic-white);
 	background-image: url(img/icon-cart.svg);
 	background-repeat: no-repeat;
+	line-height: 18px
 }
 .button-green:hover,
 .button-green:focus{
@@ -381,6 +384,7 @@ a{
 }
 .filter{
 	font-family:  PT Sans,Arial,sans-serif;
+	width:220px;
 }
 .old-price{
 	text-decoration: line-through;
