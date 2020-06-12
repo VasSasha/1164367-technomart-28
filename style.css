@@ -23,6 +23,20 @@
 	--warning:#FFBF47;
 	--mistake:#BA2732;
 	--success:#5FBB2D;
+	--grey:#E0DDD9;
+	--purple-background:#F7F3EC;
+	--active-darkblue:#1D2729;
+	--hover-darkblue:#293449;
+	--icon-background:#212A3A;
+	--price-grey: #A9A9A9;
+	--border-light-grey:#EAEAEA;
+	--active-green:#518534;
+	--range-thumb-bg:#ABABAB;
+	--runnable-track-bg:#D7DCDE;
+	--runnable-track-border:#E8E8E1;
+	--heading-bg: #F9F5F0;
+	--border-color:#E5E5E5;
+	--delivery-bg: #FFC047;
 }
 html{
 	box-sizing: border-box;
@@ -114,7 +128,7 @@ a{
 .bookmark:active,
 .cart:active{
 	opacity:.5;
-	background-color: #161D29;
+	background-color: var(--special-darkblue);
 }
 .bookmark:hover,
 .bookmark:focus{
@@ -149,7 +163,7 @@ a{
 	color: var(--special-grey);
 }
 .user-block{
-	background-color: white;
+	background-color: var(--basic-white);
 	background-image: url(img/icon-user.svg);
 	background-repeat: no-repeat;
 }
@@ -231,11 +245,14 @@ a{
 }
 .main-nav li:hover,
 .main-nav li:focus{
-	background-color: #293449;
+	background-color: var(--hover-darkblue);
 }
 .main-nav li:active{
-	background-color: #1D2739;
+	background-color: var(--active-darkblue);
 	opacity: .5;
+}
+.pop-up{
+	display: none;
 }
 .footer{
 	background-color: var(--basic-blue);
@@ -262,7 +279,7 @@ a{
 .social-net a{
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color:#212A3A;
+	background-color:var(--icon-background);
 	height:44px;
 	width:44px;
 	border-radius: 100px;
@@ -368,7 +385,7 @@ a{
 	opacity: .5;
 }
 .button-green:active{
-	background-color: #518534;
+	background-color: var(--active-green);
 }
 .button-rose{
 	background-color: var(--spesial-rose);
@@ -383,9 +400,9 @@ a{
 }
 .old-price{
 	text-decoration: line-through;
-	text-decoration-color: #A9A9A9;
+	text-decoration-color:var(--price-grey);
 	text-transform: uppercase;
-	color: #A9A9A9;
+	color:var(--price-grey);
 	font-style: normal;
 	font-weight: bold;
 	font-size: 17px;
@@ -400,7 +417,7 @@ a{
 	line-height: 18px;
 }
 .item-card{
-	border: 1px solid #EAEAEA;
+	border: 1px solid var(--border-light-grey);
 	box-sizing: border-box;
 }
 .item-card p{
@@ -426,7 +443,7 @@ a{
 	text-transform: uppercase;
 }
 .heading-bg{
-	background-color: #F9F5F0;
+	background-color:var(--heading-bg);
 }
 .heading-black{
 	color:black;
@@ -512,9 +529,9 @@ a{
 }
 .price-range::-webkit-slider-thumb{
 	-webkit-appearance:none;
-	background-color: #ABABAB;
+	background-color: var(--range-thumb-bg);
 	display: block;
-	border:0.5px solid #ABABAB;
+	border:0.5px solid var(--range-thumb-bg);
 	width:20px;
 	height:20px;
 	border-radius: 100px;
@@ -523,14 +540,14 @@ a{
 	margin-top:-12px;
 }
 .range{
-	background-color: #ABABAB;
+	background-color: var(--range-thumb-bg);
 	display: block;
-	border:0.5px solid #ABABAB;
+	border:0.5px solid var(--range-thumb-bg);
 	width:20px;
 	height:20px;
 	border-radius: 100px;
 	border:8px solid white;
-	box-shadow: 0 5px 5px -5px grey;
+	box-shadow: 0 5px 5px -5px var(--grey);
 	margin-top:-91px;
 	margin-left:13px;
 	position: relative;
@@ -539,9 +556,9 @@ a{
 .price-range::-webkit-slider-runnable-track{
 	width:100%;
 	height:2px;
-	background-color:#D7DCDE;
+	background-color:var(--runnable-track-bg);
 	border-radius: 2px;
-	border:0.5px solid #E8E8E1;
+	border:0.5px solid var(--runnable-track-border);
 }
 .for-price-range input{
 	position:relative;
@@ -555,7 +572,7 @@ a{
     z-index: 0;
 }
 .price-range-bg{
-	background-color:#F7F3EC;
+	background-color:var(--purple-background);
 	height:80px;
 	width:220px;
 }
@@ -600,7 +617,7 @@ a{
 }
 .sorting{
 	text-transform: uppercase;
-	background-color: #F7F3EC;
+	background-color:var(--purple-background);
 }
 .sorting-setting{
 	font-family: PT Sans,Arial,sans-serif;
@@ -658,13 +675,13 @@ a{
 	font-size: 13px;
 	line-height: 18px;
 	background-color: white;
-	border: 1px solid #E5E5E5;
+	border: 1px solid var(--border-color);
 	text-transform: uppercase;
 }
 .pages-link{
 	color:black;
 	text-align: center;
-	border: 1px solid #E5E5E5;
+	border: 1px solid var(--border-color);
 	border-radius: 2px;
 	font-family: PT Sans,Arial,sans-serif;
 	font-style: normal;
@@ -773,7 +790,7 @@ a.btn-add-card{
 	background-image: url(img/icon-sale.svg);
 }
 .delivery-card{
-	background-color: #FFC047;
+	background-color:var(--delivery-bg);
 	background-image: url(img/icon-delivery.svg);
 }
 .brand-bosch{
@@ -804,6 +821,6 @@ a.btn-add-card{
 	background-repeat: no-repeat;
 	height:145px;
 	width:220px;
-	border: 1px solid #EAEAEA;
+	border: 1px solid var(--border-light-grey);
 }
 
