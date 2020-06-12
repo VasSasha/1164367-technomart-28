@@ -645,6 +645,7 @@ a{
 	background-color: white;
 	border: 1px solid var(--border-color);
 	text-transform: uppercase;
+	display: inline-block;
 }
 .pages-link{
 	color:black;
@@ -678,19 +679,19 @@ a{
 	line-height: 36px;
 	color:var(--basic-white);
 }
-.btn-previous-slide,
-.btn-next-slide{
+.btn-previous,
+.btn-next{
 	background-image: url(img/icon-for-slider.svg);
 	height:40px;
 	width:22px;
 	background-color: white;
 	border:none;
 }
-.btn-next-slide{
+.btn-next{
 	transform:rotate(180deg);
 }
-.btn-first-slide,
-.btn-second-slide{
+.btn-first,
+.btn-second{
 	border-radius:100px;
 	height:10px;
 	width:10px;
