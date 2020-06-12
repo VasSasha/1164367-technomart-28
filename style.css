@@ -560,6 +560,9 @@ a{
 	border:none;
 	font-size: 17px;
 	line-height: 18px;
+	font-family:PT Sans, Arial, sans-serif;
+	text-align: center;
+	padding-left:43;
 }
 .power-radio,
 .brand-checkbox{
