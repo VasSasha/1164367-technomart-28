@@ -95,13 +95,16 @@
     <form action="https://echo.htmlacademy.ru" method="get">
       <fieldset class="fieldset-filter">
         <legend class="heading-filter">Цена</legend>
-        <div class="price-range-bg">
-          <div class="range-wrapper">
-          <input type="range" multiple class="price-range">
-          <span class="range"></span>
-        </div>
-        </div>
-          <label>
+        <div class="range-filter">
+          <div class="range-controls">
+            <div class="scale">
+              <div class="green-bar"></div>
+            </div>
+            <div class="toggle toggle-min" tabindex="0"></div>
+            <div class="toggle toggle-max" tabindex="0"></div>
+          </div>
+          <div class="price-controls">
+            <label>
             <span class="visually-hidden">c</span>
             <input type="number" name="fromPrice" min="0" class="input-for-price form-prise">
           </label>
@@ -109,6 +112,8 @@
             <span class="visually-hidden">до</span>
             <input type="number" name="toPrice" min="0" class="input-for-price">
           </label>
+          </div>
+          </div>
       </fieldset>
       <fieldset class="fieldset-filter">
         <legend class="heading-filter">Производители:</legend>
