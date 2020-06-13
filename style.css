@@ -102,7 +102,8 @@ a{
 	background-repeat: no-repeat;
 	background-position:;
 	font-size: 18px;
-	line-height: 24px; 
+	line-height: 24px;
+	font-family: Cuprum, Arial, sans-serif;  
 }
 .search:focus{
 	background-color: var(--basic-white);
