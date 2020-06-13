@@ -538,7 +538,7 @@ a{
 	height:20px;
 	border:8px solid var(--basic-white);
 	border-radius: 50%;
-	box-shadow:0 0 2px 0 var(--grey);
+	box-shadow:0 2px 0 0 var(--grey);
 	padding:0;
 	position: absolute;
 	transform: translateY(-50%);
