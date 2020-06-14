@@ -38,6 +38,7 @@
 	--border-color:#E5E5E5;
 	--delivery-bg: #FFC047;
 	--filter-green-bar:#00CA74;
+	--shadow-header-nav:#293449;
 }
 html{
 	box-sizing: border-box;
@@ -104,13 +105,13 @@ a.link-logo{
 	height:60px;
 	display: flex;
     justify-content: space-around;
-    margin:0;
-    padding:0;
-    box-shadow: inset 0px -5px 0px var(--shadow-header-nav);
 }
-.nav-list li{
+.header-nav-list li{
 	padding-left: 25px;
 	padding-right: 25px;
+}
+.main-nav ul{
+    box-shadow: inset 0px -5px 0px var(--shadow-header-nav);
 }
 .header-wrapper a,
 .main-nav a{
@@ -120,9 +121,6 @@ a.link-logo{
 .main-nav a{
 	font-size: 18px;
 	line-height: 60px;
-}
-.main-nav ul{
-	box-shadow: inset 0px -5px 0px #293449;
 }
 .search{
 	background-color: var(--basic-darkblue);
@@ -459,7 +457,7 @@ a.link-logo{
 	height:38px;
 	width:192px;
 	text-align: center;
-	font-family: Cuprum, sans-serif,arial;
+	font-family: Cuprum, Arial, sans-serif;
 }
 .button-red{
 	background-color:var(--basic-red,red);
@@ -507,6 +505,7 @@ a.link-logo{
 .button-block{
 	width:300px;
 	height:38px;
+	margin-top: 25px;
 }
 .filter{
 	font-family:  PT Sans,Arial,sans-serif;
@@ -764,6 +763,22 @@ a.link-logo{
 	text-transform: uppercase;
 	display: inline-block;
 }
+.items{
+	display: flex;
+	flex-wrap: wrap;
+	width:720px;
+	justify-content: space-between;
+}
+.to-get-item{
+	display: none;
+}
+.item-card{
+	width:220px;
+	margin-bottom: 10px;
+}
+.item-card span{
+	display: block;
+}
 .pages-link{
 	color:black;
 	text-align: center;
@@ -892,5 +907,30 @@ a.btn-add-card{
 	height:145px;
 	width:220px;
 	border: 1px solid var(--border-light-grey);
+}
+.company-info{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 130px;
+	margin-left: 130px;
+	padding-bottom: 70px;
+}
+.transport-comp li{
+	margin-bottom: 12px;
+}
+.transport-comp :last-child{
+	margin-bottom: 20px;
+}
+.contacts{
+	display: flex;
+	flex-direction: column;
+}
+.about-us-p{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.contacts-p{
+	margin-bottom: 35px;
 }
 
