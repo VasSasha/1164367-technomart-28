@@ -775,13 +775,12 @@ a.header-logo:hover{
 	margin:0 auto;
 }
 .items{
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
 	justify-content: space-between;
-	align-content: center;
 	grid-area: items;
-
-	width:700px;
+    width:700px;
 }
 .item-card{
 	border: 1px solid var(--border-light-grey);
