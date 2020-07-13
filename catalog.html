@@ -2,7 +2,7 @@
 <html lang="ru">
  <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="min.style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital@0;1&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>HTML Academy: Техномарт</title>
  </head>
@@ -72,25 +72,27 @@
   </header>
   <main>
     <div class="main-catalog">
-    <div class="breadcrumbs">
-      <a href="index.html" class="breadcrumbs-icon-home">
-        <span href="index.html"  class="visually-hidden">главная страница</span>
-      </a>
-      <span class="breadcrumbs-icon">
-        <p class="visually-hidden">to right</p>
-      </span>
-      <span >Каталог</span>
-      <span class="breadcrumbs-icon">
-        <p class="visually-hidden">to right</p>
-      </span>
-      <span>Инструменты</span>
-      <span class="breadcrumbs-icon">
-        <p class=" visually-hidden"> to right</p>
-      </span>
-      <span>Перфораторы</span>
-    </div>
-    <h1 class="heading h1">Перфораторы</h1>
-    <div class="catalog-grid-wrapper">
+      <div class="breadcrumbs-wrapper">
+        <div class="breadcrumbs">
+          <a href="index.html" class="breadcrumbs-icon-home">
+            <span href="index.html"  class="visually-hidden">главная страница</span>
+          </a>
+          <span class="breadcrumbs-icon">
+            <p class="visually-hidden">to right</p>
+          </span>
+          <span >Каталог</span>
+          <span class="breadcrumbs-icon">
+            <p class="visually-hidden">to right</p>
+          </span>
+          <span>Инструменты</span>
+          <span class="breadcrumbs-icon">
+            <p class=" visually-hidden"> to right</p>
+          </span>
+          <span>Перфораторы</span>
+        </div>
+        <h1 class="heading h1">Перфораторы</h1>
+      </div>
+   <div class="catalog-grid-wrapper">
       <div class="sorting">
         <h3 class="heading-filter filter-h3">Сортировка:</h3>
         <a href="" class="sorting-setting">По цене</a>
@@ -337,14 +339,14 @@
       <a href="" class="next-page pages-link">Следующая</a>
     </div>
   </div>
-  <section class="info-about-perf">
+     <section class="info-about-perf">
     <div class="info-div-wrapper">
       <h2 class="heading">Пара слов о перформаторах</h2>
       <p class="paragraph">Перфоратор- универсальный строительный инструмент. Предназначен для сверления и дробления отверстий в кирпиче, бетоне и камне.<br> Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шруповерта и отбойного молотка.<br>В ассортиментном ряду есть выбор "трехжимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
     </div>
   </section>
 </main>
-<footer class="footer">
+  <footer class="footer">
     <div class="footer-width">
       <div>
         <a href="" class="link-logo logo-footer">
@@ -366,7 +368,7 @@
               <a href="">Новости</a>
             </li>
             <li>
-              <a href="">Каталог</a>
+              <a>Каталог</a>
             </li>
             <li>
               <a href="">Доставка</a>
@@ -437,6 +439,6 @@
           </div>
       </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="min.script.js"></script>
   </body>
 </html>
