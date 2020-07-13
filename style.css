@@ -275,6 +275,17 @@ a.header-logo:hover{
 	color:var(--special-grey);
 	background-image: url("img/icon-user.svg");
 }
+.user-block{
+	position: relative;
+}
+.user-account{
+	position: absolute;
+	right:0;
+}
+.user-orders{
+	position: absolute;
+	left:0;
+}
 .user-orders,
 .user-account{
 	color:var(--basic-blue);
@@ -301,7 +312,7 @@ a.header-logo:hover{
 	border-radius: 100px;
 	height:4px;
 	width:4px;
-	top:130%;
+	top:115%;
 	left:43%;
 }
 .exit{
