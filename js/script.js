@@ -142,6 +142,15 @@ var switchServices = function () {
 	}
 };
 switchServices();
+var inputWrapper = document.querySelector('.input-text');
+var textarea = inputWrapper.querySelector('textarea')
+var getInputValid = function () {
+	if (textarea.validity.tooShort) {
+		textarea.setCustomValidity('Минимальное количество символов - 10');
+		textarea.reportValidity();
+	}
+}
+getInputValid();
 
 
 
